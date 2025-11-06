@@ -1,0 +1,43 @@
+Project Goal Summary
+The goal of this project is to automatically scrape and analyze IMDb movie data using Python. The system collects the latest 50 movies from IMDb, including their titles, release year, genres, and IMDb ratings, and then visualizes rating trends through histograms.
+This project demonstrates data collection, cleaning, and visualization skills using Selenium, Pandas, and Matplotlib, with an interactive dashboard built using Streamlit.
+
+Technical Workflow
+
+Data Scraping:
+
+Used Selenium WebDriver to extract movie details (Title, Year, Genre, Rating) from IMDb.
+
+Automated browser control to dynamically load and parse web content.
+
+Data Processing:
+
+Cleaned and structured the scraped data into a Pandas DataFrame.
+
+Exported the data into a CSV file for reuse and further analysis.
+
+Visualization:
+
+Created a histogram showing the distribution of IMDb movie ratings.
+
+Used Streamlit to create an interactive dashboard with filtering and viewing options.
+
+Key Insights
+Most movies have IMDb ratings in the range of 6.0 to 7.5, indicating an average to good reception among audiences.
+
+Very few movies fall below 5.0, showing that poorly rated movies are less common in the latest releases.
+
+The majority of movies belong to genres like Drama, Action, and Thriller, suggesting that these categories dominate current trends.
+
+The data suggests IMDb users generally rate new releases positively, with an overall skew toward mid-to-high ratings.
+
+Skills Demonstrated
+Python Automation: Web scraping with Selenium
+
+Data Analysis: Cleaning and structuring data with Pandas
+
+Visualization: Creating visual insights using Matplotlib
+
+Dashboard Design: Building interactive apps using Streamlit
+
+File Handling: Saving and loading datasets efficiently (CSV format)
